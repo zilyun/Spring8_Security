@@ -59,10 +59,9 @@ button:focus {
 	width: 50%;
 }
 
-form {
+form[name=joinform] {
 	background-color: #fefefe;
-	margin: 5% auto 15% auto;
-	/* 5% from the top, 15% from the bottom and centered */
+	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
 	border: 1px solid lightgray;
 	width: 600px; /* Could be more or less, depending on screen size */
 	padding: 16px;
@@ -99,8 +98,9 @@ b {
 	display: block
 }
 
-span {
+.container span, form[name="joinform"] span {
 	display: inline-block;
+	margin-top: -20px;
 	font-size: 10px
 }
 

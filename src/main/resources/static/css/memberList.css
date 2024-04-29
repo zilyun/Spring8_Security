@@ -1,10 +1,10 @@
 table caption {
 	caption-side: top;
-	text-align: center
+	text-align: center;
 }
 
 h1 {
-	text-align: center
+	text-align: center;
 }
 
 li .gray {
@@ -12,13 +12,13 @@ li .gray {
 }
 
 body>div>table>tbody>tr>td:last-child>a {
-	color: red
+	color: red;
 }
 
-form {
+form[action="list"] {
 	margin: 0 auto;
 	width: 80%;
-	text-align: center
+	text-align: center;
 }
 
 select {
@@ -32,13 +32,13 @@ select {
 }
 
 .container {
-	width: 60%
+	width: 60%;
 }
 
 td:nth-child(1) {
-	width: 33%
+	width: 33%;
 }
 
 .input-group {
-	margin-bottom: 3em
+	margin-bottom: 3em;
 }

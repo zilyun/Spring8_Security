@@ -39,6 +39,7 @@ input[type=file] {
 	<b>이메일 주소</b>
 		<input type="text" name="email" value="${memberinfo.email}" 
 				placeholder="Enter email" required><span id="email_message"></span>
+	<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">
 	<div class="clearfix">
 		<button type="submit" class="submitbtn">수정</button>
 		<button type="reset" class="cancelbtn">취소</button>
